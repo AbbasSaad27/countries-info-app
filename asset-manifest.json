@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/countries-info-app/static/css/main.e6f48b60.chunk.css",
-    "main.js": "/countries-info-app/static/js/main.93d6bb56.chunk.js",
-    "main.js.map": "/countries-info-app/static/js/main.93d6bb56.chunk.js.map",
+    "main.css": "/countries-info-app/static/css/main.dad79c5c.chunk.css",
+    "main.js": "/countries-info-app/static/js/main.eef31aae.chunk.js",
+    "main.js.map": "/countries-info-app/static/js/main.eef31aae.chunk.js.map",
     "runtime-main.js": "/countries-info-app/static/js/runtime-main.c2dab264.js",
     "runtime-main.js.map": "/countries-info-app/static/js/runtime-main.c2dab264.js.map",
     "static/js/2.4ec19221.chunk.js": "/countries-info-app/static/js/2.4ec19221.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.1b0572bc.chunk.js": "/countries-info-app/static/js/3.1b0572bc.chunk.js",
     "static/js/3.1b0572bc.chunk.js.map": "/countries-info-app/static/js/3.1b0572bc.chunk.js.map",
     "index.html": "/countries-info-app/index.html",
-    "static/css/main.e6f48b60.chunk.css.map": "/countries-info-app/static/css/main.e6f48b60.chunk.css.map",
+    "static/css/main.dad79c5c.chunk.css.map": "/countries-info-app/static/css/main.dad79c5c.chunk.css.map",
     "static/js/2.4ec19221.chunk.js.LICENSE.txt": "/countries-info-app/static/js/2.4ec19221.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c2dab264.js",
     "static/js/2.4ec19221.chunk.js",
-    "static/css/main.e6f48b60.chunk.css",
-    "static/js/main.93d6bb56.chunk.js"
+    "static/css/main.dad79c5c.chunk.css",
+    "static/js/main.eef31aae.chunk.js"
   ]
 }
