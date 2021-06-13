@@ -17,6 +17,7 @@ class App extends React.Component {
       itemPP: 0
     }
     this.length = 0
+    this._ismounted = false
   }
 
   fetchingData = () => {
@@ -28,14 +29,19 @@ class App extends React.Component {
         }
         return res.json()
       })
-      .then(data => this.setState({countries: data, load: false}));
+      .then(data => this._ismounted && this.setState({countries: data, load: false}));
     } catch(e) {
       console.log(e.message)
     }
   }
 
   componentDidMount() {
+    this._ismounted = true;
     this.fetchingData();
+  }
+
+  componentWillUnmount() {
+    this._ismounted = false;
   }
   
   onUnmount = () => {
@@ -103,7 +109,7 @@ class App extends React.Component {
           <Topbar changeTheme={this.changeTheme} themeSwitched={this.state.themeSwitched}/>
             <main className="content">
               <Switch>
-                <Route exact path="/">
+                <Route exact path="">
                   <Home onChange={this.onChange} onRegionChange={this.onRegionChange} onUnmount={this.onUnmount} countries={filteredCountries} themeSwitched={this.state.themeSwitched} itemPP={this.state.itemPP} changePage={this.changePage}/>
                 </Route>
                 <Route path="/country/:name" render={(props) => <CountryDetails {...props} key={props.match.params.name} themeSwitched={this.state.themeSwitched}/>}>

@@ -14,6 +14,7 @@ class Home extends React.Component {
     }
 
     render() {
+        console.log('render')
         return ( 
             <div>
                 <SearchnFilter onChange={this.props.onChange} onRegionChange={this.props.onRegionChange} themeSwitched={this.props.themeSwitched} changePage={this.props.changePage}/>
