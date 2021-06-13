@@ -41,7 +41,7 @@ class CountryDetails extends React.Component  {
         return (
             <div className={`details ${this.props.themeSwitched ? 'darkTxt' :'whiteTxt'}`}>
                 <div className="btn--container">
-                    <Link to="/"><button className={`btn btn--back ${this.props.themeSwitched ? 'darkEl darkTxt' : 'whiteEl whiteTxt'}`}>Back</button></Link>
+                    <Link to=""><button className={`btn btn--back ${this.props.themeSwitched ? 'darkEl darkTxt' : 'whiteEl whiteTxt'}`}>Back</button></Link>
                 </div>
                 <Details country={this.state.requestedCountry} themeSwitched={this.props.themeSwitched}/>
             </div>

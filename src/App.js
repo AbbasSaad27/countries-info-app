@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import './App.css';
 import CountryDetails from './components/countrydetails/countrydetails.component';
 import Home from './components/home/home.component';
@@ -104,7 +104,6 @@ class App extends React.Component {
     const filteredCountries = countries.filter((country) => country.name.toLowerCase().startsWith(search.toLowerCase()));
     this.getLength(filteredCountries);
     return (
-      <Router>
         <div className="App">
           <Topbar changeTheme={this.changeTheme} themeSwitched={this.state.themeSwitched}/>
             <main className="content">
@@ -117,7 +116,6 @@ class App extends React.Component {
               </Switch>
             </main>
         </div>
-      </Router>
     )
   }
 }

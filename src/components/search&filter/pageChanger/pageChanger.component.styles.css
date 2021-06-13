@@ -13,3 +13,8 @@
 .angle--left {
   margin-right: 0.5rem;
 }
+@media only screen and (max-width: 410px) {
+  .pageChanger--container {
+    margin: 0.5rem 0;
+  }
+}
