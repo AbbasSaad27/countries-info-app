@@ -1,0 +1,53 @@
+.country--details {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.country--flag-2 {
+  width: 50rem;
+  height: 30rem;
+}
+.country--flag-2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.country--name {
+  margin-bottom: 2rem;
+}
+.country--info {
+  padding: 2rem;
+  width: 70rem;
+  line-height: 2.5rem;
+}
+.country--info__all {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.country--info__all,
+.info--name {
+  font-size: 1.4rem;
+}
+.info--name {
+  font-weight: 700;
+}
+.info {
+  font-weight: 400;
+}
+.border--countries {
+  margin-top: 4rem;
+  position: relative;
+}
+.inline {
+  display: inline;
+}
+.btn--NC {
+  margin-left: 0.5rem;
+}
+@media only screen and (max-width: 500px) {
+  .country--flag-2 {
+    width: 100%;
+    height: 100%;
+  }
+}

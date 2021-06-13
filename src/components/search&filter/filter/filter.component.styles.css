@@ -1,0 +1,19 @@
+.filter {
+  padding: 1rem;
+  border: none;
+  box-shadow: 0rem 0rem 0.5rem 0rem rgba(109, 105, 105, 0.2);
+  width: 15rem;
+}
+.filter:focus {
+  outline: none;
+}
+@media only screen and (max-width: 510px) {
+  .filter {
+    margin-top: 1rem;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .filter {
+    width: 16rem;
+  }
+}

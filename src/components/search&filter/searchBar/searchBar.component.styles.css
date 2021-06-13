@@ -1,0 +1,9 @@
+.searchBar {
+  width: 30rem;
+  padding: 1rem 2rem;
+  border: none;
+  box-shadow: 0rem 0rem 0.5rem 0rem rgba(109, 105, 105, 0.2);
+}
+.searchBar:focus {
+  outline: none;
+}

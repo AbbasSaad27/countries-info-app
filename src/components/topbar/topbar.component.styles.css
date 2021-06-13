@@ -1,0 +1,12 @@
+.topbar {
+  padding: 2rem 5rem;
+  box-shadow: 0rem 0rem 0.5rem 0rem rgba(109, 105, 105, 0.2);
+  cursor: context-menu;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.topbar--header {
+  font-size: 2rem;
+  display: inline;
+}

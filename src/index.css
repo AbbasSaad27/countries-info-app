@@ -1,13 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+button {
+  border: none;
+}
+.font--14 {
+  font-size: 1.4rem;
+}
+.darkEl {
+  background-color: hsl(209, 23%, 22%);
+}
+.whiteEl {
+  background-color: hsl(0, 0%, 100%);
+}
+.darkBG {
+  background-color: hsl(207, 26%, 17%);
+}
+.whiteBG {
+  background-color: hsl(0, 0%, 98%);
+}
+.darkTxt {
+  color: hsl(0, 0%, 100%);
+}
+.whiteTxt {
+  color: hsl(200, 15%, 8%);
+}
+.bold--600 {
+  font-weight: 600;
+}
+@media only screen and (min-width: 1440px) {
+  html {
+    font-size: 65%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  html {
+    font-size: 60%;
+  }
+}
+@media only screen and (max-width: 875px) {
+  html {
+    font-size: 58%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  html {
+    font-size: 55%;
+  }
+}
+@media only screen and (max-width: 375px) {
+  html {
+    font-size: 50%;
+  }
 }

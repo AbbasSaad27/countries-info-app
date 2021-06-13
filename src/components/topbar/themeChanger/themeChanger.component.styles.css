@@ -1,0 +1,10 @@
+.themeChanger--container {
+  cursor: pointer;
+  display: inline-block;
+}
+.themeChanger {
+  width: 2rem;
+  height: 2rem;
+  padding-right: 0.2rem;
+  padding-top: 0.8rem;
+}

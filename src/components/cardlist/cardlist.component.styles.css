@@ -1,0 +1,22 @@
+.cardList {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-auto-rows: auto;
+  grid-gap: 6rem;
+  padding: 2rem 5rem;
+}
+@media only screen and (max-width: 995px) {
+  .cardList {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .cardList {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .cardList {
+    grid-template-columns: 1fr;
+  }
+}
