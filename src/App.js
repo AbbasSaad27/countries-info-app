@@ -108,10 +108,10 @@ class App extends React.Component {
           <Topbar changeTheme={this.changeTheme} themeSwitched={this.state.themeSwitched}/>
             <main className="content">
               <Switch>
+                <Route path="/country/:name" render={(props) => <CountryDetails {...props} key={props.match.params.name} themeSwitched={this.state.themeSwitched}/>}>
+                </Route>
                 <Route exact path="">
                   <Home onChange={this.onChange} onRegionChange={this.onRegionChange} onUnmount={this.onUnmount} countries={filteredCountries} themeSwitched={this.state.themeSwitched} itemPP={this.state.itemPP} changePage={this.changePage}/>
-                </Route>
-                <Route path="/country/:name" render={(props) => <CountryDetails {...props} key={props.match.params.name} themeSwitched={this.state.themeSwitched}/>}>
                 </Route>
               </Switch>
             </main>
